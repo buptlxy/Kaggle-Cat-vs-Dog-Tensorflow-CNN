@@ -5,7 +5,7 @@ import os              		# dealing with directories
 from tqdm import tqdm	   	# percentage bar for tasks
 import matplotlib.pyplot as plt
 
-import kaggle.working.Kaggle-Cat-vs-Dog-Tensorflow-CNN.utils.preprocess_images as pi
+import utils.preprocess_images as pi
 
 TRAIN_DIR = './data/train/'
 TEST_DIR = './data/test/'
